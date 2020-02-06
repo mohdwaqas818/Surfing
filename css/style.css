@@ -1,0 +1,387 @@
+html{
+    background-color: #FAFAFA;
+	overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body{
+    margin-top: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #FAFAFA;
+}
+
+/* Menu */
+
+.logo{
+    margin-left: 10px;
+    width: 100px
+}
+
+.navbar-nav a{
+    font-weight: bolder;
+}
+
+.navbar-expand-lg a:hover {
+  background-color: #ffcf00;
+  color: white;
+}
+
+/* Second Section */
+.container {
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 150px;
+    padding-left: 26px;
+}
+
+.beauty-escape{
+    padding-left: 10px
+    margin-left: 11px;
+}
+
+.ocean-title{
+    font-size: 72px;
+}
+
+.ocean-content{
+    font-size: 19px;
+}
+
+.topleft span{
+    color: 
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  margin-top: 100px;
+    
+
+}
+
+.ocean-image { 
+    width: 100%;
+    height: 500px;
+    padding-left: 245px;
+    box-shadow: 140px 31px 112px -56px rgba(0,0,0,0.21);
+}
+
+/* Section 3 - Experience */
+
+.experience{
+    letter-spacing: 2px;
+    margin-bottom: 150px;
+}
+
+.experience span{
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 6px;
+}
+
+/* Section 4 - Two images */
+
+#rock-beach{
+    box-shadow: 105px 20px 71px -56px rgba(0,0,0,0.23);
+}
+
+#surfing-man{
+
+    padding-left: 500px;
+}
+
+.rock-beach{
+    width: 613px;
+    height: 500px;
+}
+
+.understanding{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.read{
+    font-size: 10px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    padding: 5px;
+    content: "";/* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 0; /* This will center the border. */
+    width: 10%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #8dc1f3;
+}
+
+/* Surfboards */
+
+#surf-sec{
+    margin-left: 40px;
+}
+
+.content{
+    padding: 150px 0;
+}
+
+.content pre{
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+.show{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: black;
+    font-weight: bolder;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    padding: 5px;
+    content: "";/* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 55%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #8dc1f3;
+}
+
+.content p{
+    margin-left: 45px;
+    color: #de6aad;
+    font-size: 25px;
+}
+
+.content span{
+    margin-left: 50px;
+}
+
+/* Training */
+
+.training-content{
+    margin-top: 120px;
+    padding: 10px;
+}
+
+.training-content h1:after{
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 0; /* This will center the border. */
+    width: 5%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #8dc1f3;
+}
+
+.training-pic{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+
+.content-train{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.content-readmore{
+    font-size: 10px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    padding: 5px;
+    content: "";/* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 0; /* This will center the border. */
+    width: 35%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #8dc1f3;
+}
+
+/* SUNSET */
+
+#point-break{
+    margin-top: 100px;
+}
+
+.sunset-content{
+    margin-top: 80px;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+
+.sunset-pic{
+    padding-right: 23px;
+}
+
+.sunset-content h1:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 0; /* This will center the border. */
+    width: 5%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #8dc1f3;
+}
+
+.content-sun{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.content-sun-click{
+    font-size: 10px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    padding: 5px;
+    content: "";/* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 0; /* This will center the border. */
+    width: 22.5%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #8dc1f3;
+}
+
+/* VERTICAL LINE */
+
+.vl {
+  border-left: 6px solid #8dc1f3;
+  height: 100px;
+  margin-top: 200px;
+  margin-left: 50%;
+}
+
+/* JOIN THE CLUB */
+
+#club{
+    margin-top: 200px;
+}
+
+.search{
+    width: 500px;
+}
+
+/* JOIN THE CLUB */
+
+.join{
+    padding-right: 25px;
+}
+
+.join h1{
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.join p{
+    padding-bottom: 10px;
+}
+
+.join-field{
+    background-color: #f5f5f5;
+}
+
+.input-group{
+    padding-right: 15px;
+    margin-left: 5px;
+}
+
+.input-group BUTTON{
+    background-color: #8dc1f3;
+    color: white;
+    font-weight: bolder;
+}
+
+/* People */
+
+#address{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.people{
+    margin-left: -30px;
+}
+
+.camp{
+    margin-bottom: 40px;
+    color: #c4c4c5;
+    font-weight: bold;
+}
+
+.place{
+    margin-top: 50px;
+}
+
+.place h1{
+    padding-left: 40px;
+}
+
+.touch{
+    margin-top: 40px;
+    font-size: 12px;
+    color: #8dc1f3;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    padding: 5px;
+    content: "";/* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */ /* This will center the border. */
+    width: 26.5%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #8dc1f3;
+}
+
+/* Footer Menu */
+
+.menuu{
+	text-align: center;
+}
+
+.menu-footer P A{
+	margin-right: 20px;
+}
+
+.footer-menu{
+    margin-bottom: 50px;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.footer-menu li {
+  float: left;
+}
+
+.footer-menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer-menu li a:hover {
+  background-color: #ffcf00;
+  color: white;
+}
+
+.footer-main{
+	text-align: center;
+}
+
+.footer-main p a{
+	margin-right: 30px;
+	color: #c4c4c5;
+}
+
+.fab-menu{
+    margin-left: 20px;
+    margin-top: 30px;
+}
